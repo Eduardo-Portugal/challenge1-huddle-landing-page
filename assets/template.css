@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/*General styles*/
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
 }
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.banner {
+    background-image: url('../assets/images/bg-hero-desktop.jpg');
+    height: 100vh;
+}
+.banner-opacity {
+    height: 100%;
+    width: 100%;
+    background: rgb(158 229 242 / 40%);
+}
 
+/*Header Area*/
+.header-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.header-link a {
+    color: #000;
+    font-size: 14px;
+    display: block;
+    padding: 14px 60px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 1px 1px 6px #ccc;
+}
