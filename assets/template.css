@@ -114,6 +114,7 @@ main {
 }
 
 .ready-to-build--area {
+    position: relative;
     text-align: center;
     padding: 50px;
     max-width: 600px;
@@ -121,7 +122,7 @@ main {
     width: 100%;
     margin: auto;
     background-color: #fff;
-    box-shadow: 1px 1px 6px #ccc;
+    box-shadow: 1px 1px 2px #ccc;
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 80px;
@@ -137,4 +138,80 @@ main {
     background-color: #f849b6;
     border-radius: 40px;
     max-width: 300px; 
+}
+
+/*Footer Area*/
+footer {
+    color: #fff;
+    padding-top: 100px;
+    margin-top: -138px;
+    background-color: hsl(192, 100%, 9%);
+}
+.footer-area {
+    display: flex;
+}
+.footer-leftside {
+    flex: 1;
+}
+.footer-leftside .footer-logo img{
+    margin-bottom: 30px;
+}
+.footer-leftside .address {
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.footer-leftside .address img {
+    width: 16px;
+    height: 21px;
+    margin-right: 20px;
+}
+.footer-middleside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-info--left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.middle-info--right {
+    display: flex;
+    flex-direction: column;
+}
+.footer-middleside a {
+    color: #fff;
+    margin-bottom: 12px;
+}
+.footer-middleside a:hover {
+    text-decoration: underline;
+}
+.footer-rightside {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.socialmedias {
+    display: flex;
+}
+.social-photo {
+    margin-right: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+.attribution {
+    font-size: 15px;
+    text-align: center;
+}
+.attribution a {
+    color: rgba(50, 110, 201, 0.849);
+    text-decoration: underline;
 }
