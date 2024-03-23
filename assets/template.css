@@ -44,6 +44,9 @@ h1, a, h2 {
     border-radius: 40px;
     box-shadow: 1px 1px 6px #ccc;
 }
+.header-link a:hover{
+    background-color: #f5f5f5;
+}
 
 /*Hero Community Area*/
 .hero-community {
@@ -214,4 +217,115 @@ footer {
 .attribution a {
     color: rgba(50, 110, 201, 0.849);
     text-decoration: underline;
+}
+
+
+/*RESPONSIVITY*/
+
+/*Tablet Size*/
+@media (min-width: 650px) and (max-width: 890px) {
+    .container{
+        padding: 40px 20px;
+    }
+    .hero-community {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .leftside {
+        margin-right: 0px;
+    }
+    .leftside .community-button {
+        margin: auto;
+        margin-bottom: 66px;
+    }
+    .rightside .hero-img img {
+        width: 100%;
+        max-width: 890px;
+    }
+    .footer-leftside {
+        flex: 2;
+        padding-right: 10px;
+    }
+    .footer-middleside {
+        flex: 2;
+    }
+}
+
+/*Mobile Size*/
+@media (max-width: 649px) {
+   
+    .container{
+        padding: 40px 20px;
+    }
+    .header-logo img {
+        width: 100%;
+        max-width: 110px;
+    }
+    .header-link a {
+        font-size: 13px;
+        padding: 4px 29px;    
+    }
+    .hero-community {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .hero-community .leftside {
+        margin-right: 0px;
+    }
+    .leftside h1 {
+        line-height: 41px;
+        font-size: 23px;
+    }
+    .leftside p {
+        font-size: 17px;
+    }
+    .leftside .community-button {
+        margin: auto;
+        margin-bottom: 66px;
+    }
+    .rightside .hero-img img {
+        width: 100%;
+        max-width: 640px;
+    }
+    .community-info {
+        flex-direction: column-reverse;
+        padding: 36px 30px;
+        text-align: center;
+    }
+    .community-leftside h2 {
+        margin-top: 37px;
+    }
+    .community-info:nth-child(2) {
+        flex-direction: column;
+    }
+    .ready-to-build--area {
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .ready-to-build--title h2 {
+        font-size: 20px;
+    }
+    .ready-to-build--button a {
+        padding: 19px 20px;
+    }
+    .footer-area {
+        flex-direction: column;
+    }
+    .footer-middleside {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 56px;
+        margin-bottom: 40px;
+    }
+    .footer-middleside a {
+        margin-bottom: 26px;
+    }
+    .footer-rightside {
+        justify-content: center;
+    }
 }
