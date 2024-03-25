@@ -1,14 +1,18 @@
-<h1 align="center" style="font-weight: bold;">Huddle Landing Page Challenge 💻</h1>
+<h1 align="center">Huddle Landing Page Challenge 💻</h1>
 
 <p align="center">
-    <b>A landing page challenge recreated by Eduardo Portugal</b>
+    <b>A landing page challenge recreated by Eduardo Portugal using the mobile first concept</b>
 </p>
-
+<br>
+<br>
 
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="./assets/design/Desktop-challenge1-huddle-landing-page.png" alt="Desktop layout design" width="400px">
+    <h3>Desktop</h3>
+    <img src="./assets/design/Desktop-challenge1-huddle-landing-page.png" alt="Desktop layout design" width="400px" align-item="center">
+    <br>
+    <h3>Mobile</h3>
     <img src="./assets/design/Mobile_challenge1-huddle-landing-page_index.html.png" alt="Mobile layout design" width="400px">
 </p>
 
